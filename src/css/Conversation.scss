@@ -1,0 +1,46 @@
+.Conversation {
+  margin-bottom: 200px;
+
+  &__NoMessages {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    color: lighten(gray, 20%);
+    font-size: 20px;
+  }
+
+  &__Message {
+    margin-left: 80px;
+    p {
+      font-size: 30px;
+      letter-spacing: 10px;
+      margin: 0;
+    }
+    small {
+      opacity: 0.3;
+      font-size: 11px;
+      clear: both;
+      margin-left: 5px;
+    }
+  }
+
+  ul {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px 30px 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.19);
+
+    li {
+      list-style: none;
+      border-top: 1px solid #eeeeee;
+      padding: 30px 30px 30px 0;
+
+      .Avatar {
+        float: left;
+      }
+
+    }
+  }
+}

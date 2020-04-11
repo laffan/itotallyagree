@@ -1,0 +1,49 @@
+.AvatarEditor {
+  text-align: center;
+  display: inline-block;
+  width: 250px;
+
+  &__Palette {
+    display: inline-block;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 15px;
+    color: gray;
+  }
+
+  &__RingType {
+    border-bottom: 2px solid #000;
+    margin: 0 5px;
+    color: black;
+  }
+
+  &__Colors {
+    margin: 0;
+    padding: 0;
+    display: table;
+    text-align: center;
+  }
+  &__Color {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    // float: left;
+    margin: 10px;
+    display: inline-block;
+
+    &:hover {
+      border: 1px solid gray;
+      box-shadow: 0 0 4px 0 rgba(0,0,0,0.50);
+    }
+
+    &.selectedColor {
+      border: 1px solid black;
+    }
+
+  }
+
+
+}
