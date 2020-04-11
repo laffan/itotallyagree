@@ -8,15 +8,15 @@ export const addMessage = newMessage => async dispatch => {
   messagesRef.push().set( newMessage );
 };
 
+export const deleteMessage = messageId => async dispatch => {
+  messagesRef.child( messageId ).remove();
+};
+
 export const addUser = newUser => async dispatch => {
   usersRef.push().set( newUser, (err) => {
     if (err) console.log(err);
     else {
-      console.log( 
-        "NEW USER OBJ"
-      )
-      console.log(newUser)
-      
+
       dispatch({
         type: ADD_USER,
         data: newUser

@@ -12,15 +12,25 @@
   &__Message {
     margin-left: 80px;
     p {
-      font-size: 30px;
+      font-size: 40px;
       letter-spacing: 10px;
       margin: 0;
     }
     small {
-      opacity: 0.3;
+      color: gray;
       font-size: 11px;
       clear: both;
       margin-left: 5px;
+    }
+  }
+
+  &__DeleteMessage {
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+    &:hover {
+      color: red;
+      cursor: pointer;
     }
   }
 
