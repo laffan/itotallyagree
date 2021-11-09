@@ -1,4 +1,4 @@
-import {messagesRef, usersRef} from './../firebase'
+import {messagesRef, usersRef} from './../firebase-api'
 
 export const FETCH_MESSAGES = 'FETCH_MESSAGES';
 export const FETCH_USERS = 'FETCH_USERS';

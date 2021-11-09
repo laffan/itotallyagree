@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { emojiKeyboard } from "./../emoji-keyboard";
 import { addMessage } from "./../redux/actions";
-import * as firebase from "firebase";
-
+import firebase from 'firebase/compat/app';
+import "firebase/compat/database";
 import "./../css/ChatForm.scss";
 
 class ChatForm extends Component {

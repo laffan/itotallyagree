@@ -109,5 +109,5 @@ export const emojiKeyboard = [
   },
   {
     "🧄" : ['0', ')']
-  },
+  }
 ]
