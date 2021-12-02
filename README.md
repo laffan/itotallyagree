@@ -1,3 +1,3 @@
-# Shit VCs Say
+# itotallyagree
 
-David had an idea.
+Turning your standard chat app in to emojified nonsense.
